@@ -18,7 +18,7 @@
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/profile`
 
@@ -94,7 +94,7 @@ And then fixing whatever production decides to expose.
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/currently-building`
 
@@ -161,7 +161,7 @@ automation
 
 ---
 
-<div align="center">
+<div align="left">
 
 # `01 / FRAGBASE`
 
@@ -237,9 +237,9 @@ It is making the infrastructure underneath them behave like one system.
 
 ---
 
-<div align="center">
+<div align="left">
 
-# `02 / FRAGGUARD`
+# `02 / FRAGUARD`
 
 ### competitive integrity tooling
 
@@ -265,7 +265,7 @@ pub struct Match {
 }
 ```
 
-FRAGGUARD exists around the idea that competitive systems should not treat integrity as an afterthought.
+FRAGUARD exists around the idea that competitive systems should not treat integrity as an afterthought.
 
 The goal is to make competitive integrity part of the platform architecture itself.
 
@@ -277,7 +277,7 @@ A system that understands the competitive lifecycle it belongs to.
 
 ---
 
-<div align="center">
+<div align="left">
 
 # `03 / ZERO`
 
@@ -320,7 +320,7 @@ It is as much a product philosophy as it is a project.
 
 ---
 
-<div align="center">
+<div align="left">
 
 # `04 / ZERO AUTOS`
 
@@ -375,7 +375,7 @@ A more curated approach to automotive presentation.
 
 ---
 
-<div align="center">
+<div align="left">
 
 # `05 / ORÇAZAP`
 
@@ -424,7 +424,7 @@ More focus on actually closing the service.
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/architecture`
 
@@ -493,7 +493,7 @@ more dependencies ≠ better product
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/frontend`
 
@@ -543,7 +543,7 @@ Because interface quality is part of product quality.
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/design-system`
 
@@ -596,7 +596,7 @@ The design direction I naturally move toward is usually:
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/product-philosophy`
 
@@ -642,7 +642,7 @@ product:
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/workflow`
 
@@ -667,7 +667,7 @@ $ ./build-product.sh
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/opinions`
 
@@ -695,7 +695,7 @@ $ ./build-product.sh
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/runtime`
 
@@ -737,7 +737,7 @@ sleep=optional
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/stack`
 
@@ -781,7 +781,7 @@ sleep=optional
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/projects`
 
@@ -797,7 +797,7 @@ sleep=optional
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/status`
 
@@ -829,7 +829,7 @@ shipping:    required
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## `~/contact`
 
