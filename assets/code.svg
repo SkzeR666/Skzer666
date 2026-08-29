@@ -1,50 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504 775" width="504" height="775" role="img" aria-label="augusto.ts">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 607 910" width="607" height="910" fill="none" role="img" aria-label="augusto.ts">
   <defs>
-    <linearGradient id="rb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="340" y2="0" spreadMethod="repeat">
+    <linearGradient id="rb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0" spreadMethod="repeat">
       <stop offset="0" stop-color="#ff004d"/>
       <stop offset="0.17" stop-color="#ff9a00"/>
-      <stop offset="0.34" stop-color="#f9f900"/>
-      <stop offset="0.5" stop-color="#37ff00"/>
-      <stop offset="0.67" stop-color="#00e5ff"/>
+      <stop offset="0.34" stop-color="#f2d200"/>
+      <stop offset="0.5" stop-color="#2fd60c"/>
+      <stop offset="0.67" stop-color="#00c4e5"/>
       <stop offset="0.84" stop-color="#8a2be2"/>
       <stop offset="1" stop-color="#ff004d"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="340 0" dur="5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="420 0" dur="5s" repeatCount="indefinite"/>
     </linearGradient>
     <style>
-      text { font-family: 'JetBrains Mono','Fira Code',ui-monospace,Menlo,Consolas,monospace; font-size: 16px; }
-      .k{fill:#ff7b72} .prop{fill:#79c0ff} .s{fill:#a5d6ff} .pl{fill:#c9d1d9}
+      text { font-family: 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size: 21px; }
+      .k{fill:#c74e58} .prop{fill:#3f7bd6} .s{fill:#2f9e57} .pl{fill:#8b949e}
       .rb{fill:url(#rb); font-weight:700}
     </style>
   </defs>
-  <rect x="1" y="1" width="502" height="773" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-  <circle cx="28" cy="26" r="6" fill="#ff5f56"/>
-  <circle cx="48" cy="26" r="6" fill="#ffbd2e"/>
-  <circle cx="68" cy="26" r="6" fill="#27c93f"/>
-  <text x="94" y="31" style="fill:#8b949e; font-family:ui-monospace,monospace; font-size:14px">augusto.ts</text>
-  <line x1="0" y1="46" x2="504" y2="46" stroke="#30363d" stroke-width="1"/>
-  <text x="26" y="78" xml:space="preserve"><tspan class="k">export </tspan><tspan class="k">const </tspan><tspan class="pl">dev = {</tspan></text>
-  <text x="26" y="103" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">nome</tspan><tspan class="pl">:</tspan><tspan class="pl">     </tspan><tspan class="rb">"Augusto Santos"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="128" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">alias</tspan><tspan class="pl">:</tspan><tspan class="pl">    </tspan><tspan class="s">"SkzeR666"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="153" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">base</tspan><tspan class="pl">:</tspan><tspan class="pl">     </tspan><tspan class="s">"Brasil"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="178" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">role</tspan><tspan class="pl">:</tspan><tspan class="pl">     </tspan><tspan class="s">"solo dev"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="203" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">formacao</tspan><tspan class="pl">:</tspan><tspan class="pl"> </tspan><tspan class="s">"ADS · UNITAU"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="228" xml:space="preserve"><tspan class="pl">} </tspan><tspan class="k">as </tspan><tspan class="k">const</tspan><tspan class="pl">;</tspan></text>
-  <text x="26" y="278" xml:space="preserve"><tspan class="k">export </tspan><tspan class="k">const </tspan><tspan class="pl">projetos = {</tspan></text>
-  <text x="26" y="303" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="rb">fragbase</tspan><tspan class="pl">:</tspan><tspan class="pl">  </tspan><tspan class="s">"plataforma de torneios de cs2"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="328" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="rb">fraguard</tspan><tspan class="pl">:</tspan><tspan class="pl">  </tspan><tspan class="s">"anticheat em go e rust"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="353" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="rb">orcazap</tspan><tspan class="pl">:</tspan><tspan class="pl">   </tspan><tspan class="s">"orçamento direto no pix"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="378" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="rb">zer0autos</tspan><tspan class="pl">:</tspan><tspan class="pl"> </tspan><tspan class="s">"curadoria de veículos à venda"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="403" xml:space="preserve"><tspan class="pl">} </tspan><tspan class="k">as </tspan><tspan class="k">const</tspan><tspan class="pl">;</tspan></text>
-  <text x="26" y="453" xml:space="preserve"><tspan class="k">export </tspan><tspan class="k">const </tspan><tspan class="pl">stack = {</tspan></text>
-  <text x="26" y="478" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">linguagens</tspan><tspan class="pl">:</tspan><tspan class="pl"> </tspan><tspan class="pl">[</tspan><tspan class="rb">"TypeScript"</tspan><tspan class="pl">, </tspan><tspan class="rb">"Go"</tspan><tspan class="pl">, </tspan><tspan class="rb">"Rust"</tspan><tspan class="pl">],</tspan></text>
-  <text x="26" y="503" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">frontend</tspan><tspan class="pl">:</tspan><tspan class="pl">   </tspan><tspan class="pl">[</tspan><tspan class="s">"React"</tspan><tspan class="pl">, </tspan><tspan class="s">"Next.js"</tspan><tspan class="pl">, </tspan><tspan class="s">"Tailwind"</tspan><tspan class="pl">],</tspan></text>
-  <text x="26" y="528" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">backend</tspan><tspan class="pl">:</tspan><tspan class="pl">    </tspan><tspan class="pl">[</tspan><tspan class="s">"Node.js"</tspan><tspan class="pl">, </tspan><tspan class="s">"Go"</tspan><tspan class="pl">],</tspan></text>
-  <text x="26" y="553" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">dados</tspan><tspan class="pl">:</tspan><tspan class="pl">      </tspan><tspan class="pl">[</tspan><tspan class="s">"PostgreSQL"</tspan><tspan class="pl">, </tspan><tspan class="s">"Redis"</tspan><tspan class="pl">],</tspan></text>
-  <text x="26" y="578" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">infra</tspan><tspan class="pl">:</tspan><tspan class="pl">      </tspan><tspan class="pl">[</tspan><tspan class="s">"Docker"</tspan><tspan class="pl">, </tspan><tspan class="s">"Linux"</tspan><tspan class="pl">, </tspan><tspan class="s">"Git"</tspan><tspan class="pl">],</tspan></text>
-  <text x="26" y="603" xml:space="preserve"><tspan class="pl">} </tspan><tspan class="k">as </tspan><tspan class="k">const</tspan><tspan class="pl">;</tspan></text>
-  <text x="26" y="653" xml:space="preserve"><tspan class="k">export </tspan><tspan class="k">const </tspan><tspan class="pl">contato = {</tspan></text>
-  <text x="26" y="678" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">github</tspan><tspan class="pl">:</tspan><tspan class="pl">    </tspan><tspan class="s">"github.com/SkzeR666"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="703" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">instagram</tspan><tspan class="pl">:</tspan><tspan class="pl"> </tspan><tspan class="s">"instagram.com/augusto.santos696"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="728" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">email</tspan><tspan class="pl">:</tspan><tspan class="pl">     </tspan><tspan class="s">"augustowebdev0@gmail.com"</tspan><tspan class="pl">,</tspan></text>
-  <text x="26" y="753" xml:space="preserve"><tspan class="pl">} </tspan><tspan class="k">as </tspan><tspan class="k">const</tspan><tspan class="pl">;</tspan></text>
+  <text x="6" y="34" xml:space="preserve"><tspan class="k">export </tspan><tspan class="k">const </tspan><tspan class="pl">dev = {</tspan></text>
+  <text x="6" y="66" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">nome</tspan><tspan class="pl">:     </tspan><tspan class="rb">"Augusto Santos"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="98" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">alias</tspan><tspan class="pl">:    </tspan><tspan class="s">"SkzeR666"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="130" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">base</tspan><tspan class="pl">:     </tspan><tspan class="s">"Brasil"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="162" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">role</tspan><tspan class="pl">:     </tspan><tspan class="s">"solo dev"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="194" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">formacao</tspan><tspan class="pl">: </tspan><tspan class="s">"ADS · UNITAU"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="226" xml:space="preserve"><tspan class="pl">} </tspan><tspan class="k">as </tspan><tspan class="k">const</tspan><tspan class="pl">;</tspan></text>
+  <text x="6" y="290" xml:space="preserve"><tspan class="k">export </tspan><tspan class="k">const </tspan><tspan class="pl">projetos = {</tspan></text>
+  <text x="6" y="322" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="rb">fragbase</tspan><tspan class="pl">:  </tspan><tspan class="s">"plataforma de torneios de cs2"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="354" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="rb">fraguard</tspan><tspan class="pl">:  </tspan><tspan class="s">"anticheat em go e rust"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="386" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="rb">orcazap</tspan><tspan class="pl">:   </tspan><tspan class="s">"orçamento direto no pix"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="418" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="rb">zer0autos</tspan><tspan class="pl">: </tspan><tspan class="s">"curadoria de veículos à venda"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="450" xml:space="preserve"><tspan class="pl">} </tspan><tspan class="k">as </tspan><tspan class="k">const</tspan><tspan class="pl">;</tspan></text>
+  <text x="6" y="514" xml:space="preserve"><tspan class="k">export </tspan><tspan class="k">const </tspan><tspan class="pl">stack = {</tspan></text>
+  <text x="6" y="546" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">linguagens</tspan><tspan class="pl">: [</tspan><tspan class="rb">"TypeScript"</tspan><tspan class="pl">, </tspan><tspan class="rb">"Go"</tspan><tspan class="pl">, </tspan><tspan class="rb">"Rust"</tspan><tspan class="pl">],</tspan></text>
+  <text x="6" y="578" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">frontend</tspan><tspan class="pl">:   [</tspan><tspan class="s">"React"</tspan><tspan class="pl">, </tspan><tspan class="s">"Next.js"</tspan><tspan class="pl">, </tspan><tspan class="s">"Tailwind"</tspan><tspan class="pl">],</tspan></text>
+  <text x="6" y="610" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">backend</tspan><tspan class="pl">:    [</tspan><tspan class="s">"Node.js"</tspan><tspan class="pl">, </tspan><tspan class="s">"Go"</tspan><tspan class="pl">],</tspan></text>
+  <text x="6" y="642" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">dados</tspan><tspan class="pl">:      [</tspan><tspan class="s">"PostgreSQL"</tspan><tspan class="pl">, </tspan><tspan class="s">"Redis"</tspan><tspan class="pl">],</tspan></text>
+  <text x="6" y="674" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">infra</tspan><tspan class="pl">:      [</tspan><tspan class="s">"Docker"</tspan><tspan class="pl">, </tspan><tspan class="s">"Linux"</tspan><tspan class="pl">, </tspan><tspan class="s">"Git"</tspan><tspan class="pl">],</tspan></text>
+  <text x="6" y="706" xml:space="preserve"><tspan class="pl">} </tspan><tspan class="k">as </tspan><tspan class="k">const</tspan><tspan class="pl">;</tspan></text>
+  <text x="6" y="770" xml:space="preserve"><tspan class="k">export </tspan><tspan class="k">const </tspan><tspan class="pl">contato = {</tspan></text>
+  <text x="6" y="802" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">github</tspan><tspan class="pl">:    </tspan><tspan class="s">"github.com/SkzeR666"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="834" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">instagram</tspan><tspan class="pl">: </tspan><tspan class="s">"instagram.com/augusto.santos696"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="866" xml:space="preserve"><tspan class="pl">  </tspan><tspan class="prop">email</tspan><tspan class="pl">:     </tspan><tspan class="s">"augustowebdev0@gmail.com"</tspan><tspan class="pl">,</tspan></text>
+  <text x="6" y="898" xml:space="preserve"><tspan class="pl">} </tspan><tspan class="k">as </tspan><tspan class="k">const</tspan><tspan class="pl">;</tspan></text>
 </svg>
