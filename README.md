@@ -9,14 +9,14 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:       "Augusto Santos",
-  description: "solo dev · brasil",
+  description: "solo dev · brasil · do bug ao deploy",
 };
 
 const projetos = [
-  { nome: "Fragbase",   sobre: "plataforma de torneios de cs2",               href: "github.com/SkzeR666/fragbase"   },
-  { nome: "Fraguard",   sobre: "anticheat em go e rust",                      href: "github.com/SkzeR666/fraguard"   },
-  { nome: "OrçaZap",    sobre: "orçamento direto no pix",                     href: "github.com/SkzeR666/orcazap"    },
-  { nome: "Zer0 Autos", sobre: "curadoria de veículos selecionados à venda", href: "github.com/SkzeR666/Zer0-Autos" },
+  { nome: "Fragbase",   sobre: "saas de torneios de cs2 — o hub competitivo"     },
+  { nome: "Fraguard",   sobre: "anticheat em go + rust que não tira folga"       },
+  { nome: "OrçaZap",    sobre: "do orçamento ao pix sem sair do zap"             },
+  { nome: "Zer0 Autos", sobre: "curadoria de veículos selecionados à venda"      },
 ] as const;
 
 const stack = {
@@ -35,25 +35,25 @@ const contato = {
 
 export default function Augusto() {
   return (
-    <main>
+    <main className="grind">
       <h1>Augusto Santos</h1>
-      <p>solo dev · brasil · ADS (UNITAU)</p>
+      <p>solo dev · brasil · commita e reza</p>
 
       <section id="foco">
-        Fragbase — plataforma de torneios de CS2
+        {"// no momento: subindo a Fragbase, plataforma de torneios de CS2"}
       </section>
 
       <section id="projetos">
-        {projetos.map(({ nome, sobre, href }) => (
-          <a key={nome} href={`https://${href}`}>
+        {projetos.map(({ nome, sobre }) => (
+          <article key={nome}>
             <strong>{nome}</strong> — {sobre}
-          </a>
+          </article>
         ))}
       </section>
 
       <section id="stack">
         {Object.entries(stack).map(([area, techs]) => (
-          <p key={area}>{area}: {techs.join(", ")}</p>
+          <p key={area}>{area}: {techs.join(" · ")}</p>
         ))}
       </section>
 
@@ -65,4 +65,18 @@ export default function Augusto() {
     </main>
   );
 }
+```
+
+```ini
+# .env — não vaza, é só meme
+LOCATION=Brasil
+ROLE=solo_dev
+STATUS=shipping
+COFFEE_LEVEL=over9000
+SLEEP=optional
+CATS=true
+CURRENT_BOSS=prazo
+UPTIME=99.9%              # exceto quando o css não colabora
+FAVORITE_BUG=works_on_my_machine
+NEXT_PUBLIC_VIBE=cinematic
 ```
