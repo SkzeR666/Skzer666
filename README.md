@@ -68,7 +68,7 @@ export default function Augusto() {
 ```
 
 ```ini
-# .env — não vaza, é só meme
+# .env
 LOCATION=Brasil
 ROLE=solo_dev
 STATUS=shipping
@@ -76,7 +76,7 @@ COFFEE_LEVEL=over9000
 SLEEP=optional
 CATS=true
 CURRENT_BOSS=prazo
-UPTIME=99.9%              # exceto quando o css não colabora
+UPTIME=99.9%
 FAVORITE_BUG=works_on_my_machine
 NEXT_PUBLIC_VIBE=cinematic
 ```
