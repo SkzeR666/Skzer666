@@ -12,11 +12,13 @@ export const metadata: Metadata = {
   description: "solo dev · brasil · do bug ao deploy",
 };
 
-const projetos = [
-  { nome: "Fragbase",   sobre: "saas de torneios de cs2 — o hub competitivo"     },
-  { nome: "Fraguard",   sobre: "anticheat em go + rust que não tira folga"       },
-  { nome: "OrçaZap",    sobre: "do orçamento ao pix sem sair do zap"             },
-  { nome: "Zer0 Autos", sobre: "curadoria de veículos selecionados à venda"      },
+type Projeto = { nome: string; sobre: string };
+
+const projetos: readonly Projeto[] = [
+  { nome: "Fragbase",   sobre: "saas de torneios de cs2 — o hub competitivo" },
+  { nome: "Fraguard",   sobre: "anticheat em go + rust que não tira folga"   },
+  { nome: "OrçaZap",    sobre: "do orçamento ao pix sem sair do zap"         },
+  { nome: "Zer0 Autos", sobre: "curadoria de veículos selecionados à venda"  },
 ] as const;
 
 const stack = {
@@ -28,9 +30,9 @@ const stack = {
 } as const;
 
 const contato = {
-  github:    "github.com/SkzeR666",
-  email:     "augustowebdev0@gmail.com",
-  instagram: "instagram.com/augusto.santos696",
+  github:    "https://github.com/SkzeR666",
+  instagram: "https://instagram.com/augusto.santos696",
+  email:     "mailto:augustowebdev0@gmail.com",
 } as const;
 
 export default function Augusto() {
@@ -58,8 +60,8 @@ export default function Augusto() {
       </section>
 
       <footer>
-        {Object.entries(contato).map(([rede, url]) => (
-          <a key={rede} href={`https://${url}`}>{rede}</a>
+        {Object.entries(contato).map(([rede, href]) => (
+          <a key={rede} href={href}>{rede}</a>
         ))}
       </footer>
     </main>
@@ -72,11 +74,14 @@ export default function Augusto() {
 LOCATION=Brasil
 ROLE=solo_dev
 STATUS=shipping
+TZ=America/Sao_Paulo
+DEPLOY_TARGET=vercel
 COFFEE_LEVEL=over9000
 SLEEP=optional
 CATS=true
 CURRENT_BOSS=prazo
 UPTIME=99.9%
+DEBUG=false                 # mentira, tem console.log sim
 FAVORITE_BUG=works_on_my_machine
 NEXT_PUBLIC_VIBE=cinematic
 ```
