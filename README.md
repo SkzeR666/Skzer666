@@ -64,7 +64,6 @@ export default function Augusto() {
 ```
 
 ```ini
-# .env
 LOCATION=Brasil
 ROLE=solo_dev
 STATUS=shipping
