@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif" width="100%" height="70" alt="cat banner" />
 </div>
 
-<br>
+---
 
 ```json
 {
@@ -17,10 +17,10 @@
   "foco_atual": "Fragbase — plataforma de torneios de CS2",
 
   "projetos": [
-    { "nome": "fragbase",   "sobre": "plataforma de torneios de cs2", "url": "github.com/SkzeR666/fragbase" },
-    { "nome": "fraguard",   "sobre": "anticheat em go e rust",        "url": "github.com/SkzeR666/fraguard" },
-    { "nome": "orcazap",    "sobre": "orçamento direto no pix",       "url": "github.com/SkzeR666/orcazap" },
-    { "nome": "zer0-autos", "sobre": "landing pages",                 "url": "github.com/SkzeR666/Zer0-Autos" }
+    { "nome": "Fragbase",   "sobre": "plataforma de torneios de cs2",                "url": "github.com/SkzeR666/fragbase" },
+    { "nome": "Fraguard",   "sobre": "anticheat em go e rust",                       "url": "github.com/SkzeR666/fraguard" },
+    { "nome": "OrçaZap",    "sobre": "orçamento direto no pix",                      "url": "github.com/SkzeR666/orcazap" },
+    { "nome": "Zer0 Autos", "sobre": "curadoria de veículos selecionados à venda",  "url": "github.com/SkzeR666/Zer0-Autos" }
   ],
 
   "stack": {
@@ -34,8 +34,9 @@
   "interesses": ["esports", "cs2", "saas", "sistemas distribuídos", "gatos"],
 
   "contato": {
-    "github": "github.com/SkzeR666",
-    "email":  "g4skzer@gmail.com"
+    "github":    "github.com/SkzeR666",
+    "email":     "augustowebdev0@gmail.com",
+    "instagram": "instagram.com/augusto.santos696"
   }
 }
 ```
