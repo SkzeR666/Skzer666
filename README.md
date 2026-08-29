@@ -81,7 +81,7 @@ SLEEP=optional
 CATS=true
 CURRENT_BOSS=prazo
 UPTIME=99.9%
-DEBUG=false                 # mentira, tem console.log sim
+DEBUG=false
 FAVORITE_BUG=works_on_my_machine
 NEXT_PUBLIC_VIBE=cinematic
 ```
