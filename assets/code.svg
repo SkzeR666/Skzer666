@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 470" width="680" height="470" role="img" aria-label="augusto.tsx">
+  <defs>
+    <linearGradient id="rb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="320" y2="0" spreadMethod="repeat">
+      <stop offset="0"    stop-color="#ff004d"/>
+      <stop offset="0.17" stop-color="#ff9a00"/>
+      <stop offset="0.34" stop-color="#f9f900"/>
+      <stop offset="0.5"  stop-color="#37ff00"/>
+      <stop offset="0.67" stop-color="#00e5ff"/>
+      <stop offset="0.84" stop-color="#8a2be2"/>
+      <stop offset="1"    stop-color="#ff004d"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="320 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <style>
+      text { font-family: 'JetBrains Mono','Fira Code',ui-monospace,Menlo,Consolas,monospace; font-size: 15px; }
+      .k  { fill: #ff7b72; }
+      .p  { fill: #c9d1d9; }
+      .m  { fill: #8b949e; }
+      .s  { fill: #a5d6ff; }
+      .rb { fill: url(#rb); font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="678" height="468" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <circle cx="26" cy="28" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="28" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="28" r="6" fill="#27c93f"/>
+  <text x="92" y="33" class="m">augusto.tsx</text>
+  <line x1="0" y1="48" x2="680" y2="48" stroke="#30363d" stroke-width="1"/>
+
+  <text x="24" y="84"><tspan class="k">const </tspan><tspan class="p">dev = {</tspan></text>
+  <text x="44" y="109"><tspan class="p">nome: </tspan><tspan class="rb">"Augusto Santos"</tspan><tspan class="p">,</tspan></text>
+  <text x="44" y="134"><tspan class="p">base: </tspan><tspan class="s">"Brasil"</tspan><tspan class="p">, </tspan><tspan class="m">// solo dev</tspan></text>
+  <text x="44" y="159"><tspan class="p">stack: </tspan><tspan class="rb">TypeScript · Go · Rust · Next.js</tspan></text>
+  <text x="24" y="184"><tspan class="p">};</tspan></text>
+
+  <text x="24" y="221"><tspan class="k">const </tspan><tspan class="p">projetos = [</tspan></text>
+  <text x="44" y="246"><tspan class="rb">Fragbase</tspan><tspan class="m"> — saas de torneios de cs2</tspan></text>
+  <text x="44" y="271"><tspan class="rb">Fraguard</tspan><tspan class="m"> — anticheat em go + rust</tspan></text>
+  <text x="44" y="296"><tspan class="rb">OrçaZap</tspan><tspan class="m"> — orçamento direto no pix</tspan></text>
+  <text x="44" y="321"><tspan class="rb">Zer0 Autos</tspan><tspan class="m"> — curadoria de veículos à venda</tspan></text>
+  <text x="24" y="346"><tspan class="p">];</tspan></text>
+
+  <text x="24" y="386"><tspan class="m"># .env</tspan></text>
+  <text x="24" y="411"><tspan class="p">COFFEE_LEVEL=</tspan><tspan class="rb">over9000</tspan><tspan class="p">  CATS=</tspan><tspan class="rb">true</tspan></text>
+  <text x="24" y="436"><tspan class="p">VIBE=</tspan><tspan class="rb">cinematic</tspan><tspan class="p">  UPTIME=</tspan><tspan class="rb">99.9%</tspan></text>
+</svg>
